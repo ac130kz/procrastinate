@@ -26,7 +26,7 @@ procrastinate = 'procrastinate.cli:main'
 
 [tool.poetry.dependencies]
 python = "^3.7"
-aiopg = "*"
+aiopg = {git = "https://github.com/ac130kz/aiopg.git", rev = "ece4082"}
 attrs = "*"
 click = "*"
 croniter = "*"
